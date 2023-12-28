@@ -1,0 +1,27 @@
+Best genome:
+Key: 43751
+Fitness: 0.595
+Nodes:
+        0 DefaultNodeGene(key=0, bias=0.039732913049479, response=1.0, activation=sigmoid, aggregation=sum)
+        1 DefaultNodeGene(key=1, bias=0.680369924074109, response=1.0, activation=sigmoid, aggregation=sum)
+        2 DefaultNodeGene(key=2, bias=1.0417752432233844, response=1.0, activation=sigmoid, aggregation=sum)
+        3 DefaultNodeGene(key=3, bias=0.8720102651535873, response=1.0, activation=sigmoid, aggregation=sum)
+        4 DefaultNodeGene(key=4, bias=5.624079818998004, response=1.0, activation=sigmoid, aggregation=sum)
+        5 DefaultNodeGene(key=5, bias=-1.2483980098316612, response=1.0, activation=sigmoid, aggregation=sum)
+        6 DefaultNodeGene(key=6, bias=0.32630013655251794, response=1.0, activation=sigmoid, aggregation=sum)
+        5423 DefaultNodeGene(key=5423, bias=2.0983917757856685, response=1.0, activation=sigmoid, aggregation=sum)
+Connections:
+        DefaultConnectionGene(key=(-5, 0), weight=0.39231262408447176, enabled=True)
+        DefaultConnectionGene(key=(-5, 2), weight=1.2916900434673773, enabled=True)
+        DefaultConnectionGene(key=(-3, 6), weight=0.2310584016869095, enabled=True)
+        DefaultConnectionGene(key=(-2, 2), weight=1.9628334138005668, enabled=True)
+        DefaultConnectionGene(key=(5423, 2), weight=0.43485377382812274, enabled=True)
+
+Output:
+Average win rate (against final strategy) of the best genome is: 0.595
+    against always_roll(6) win rate: 0.7050000000000001
+    against catch_up win rate: 0.66
+    against always_roll(3) win rate: 0.815
+    against always_roll(8) win rate: 0.6699999999999999
+    against boar_strategy win rate: 0.515
+    against sus_strategy win rate: 0.515
