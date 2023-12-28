@@ -12,3 +12,14 @@ I decided to evaluate fitness as the win percentage against my non-neural networ
 The end result of the model had a 60% win rate against my final strategy, which I consider to be a pretty big success! Despite the 5 inputs, the model only looks at the opponent score, boar + sus score, and player distance to goal to decide how many dice to roll. The model then chooses between 0, 6 or 2 dice to roll.
 
 While my code does include packages/imports, a non-import implementation of this code could be done by simply hard-coding the neural network that describes the strategy. Since each perceptron can be calculated as sigmoid(Wx + b), the acutal calculations done by the neural network are simple and easy to implement without any external libraries. 
+
+Here is the final results of this strategy:
+```
+Average win rate against previous final strategy of the best genome is: 0.595
+    against always_roll(6) win rate: 0.7050000000000001
+    against catch_up win rate: 0.66
+    against always_roll(3) win rate: 0.815
+    against always_roll(8) win rate: 0.6699999999999999
+    against boar_strategy win rate: 0.515
+    against sus_strategy win rate: 0.515
+```
